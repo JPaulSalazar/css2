@@ -1,0 +1,32 @@
+#subhead2 {
+    float: right;
+    width: 655px;
+    position: relative; 
+}
+
+#email {
+    font-size: 13px;
+    color: $gray;
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    right: 0; 
+}
+
+#listMenu{
+    list-style: none;
+    margin: 45px 0 0 0;
+    padding: 0;
+    li + li {
+        margin-left: 66px; 
+    }
+    li {
+        float: left; }
+}
+
+.listLink {
+    font-size: $little;
+    font-weight: bold;
+    color: $orange;
+    text-decoration: none;
+    text-transform: uppercase; }

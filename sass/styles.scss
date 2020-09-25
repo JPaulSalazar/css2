@@ -1,2 +1,11 @@
 //variables para reutilizar
-@import "./globales/globales"
+@import "./globales/globales";
+
+//mixins(partes de codigo reutilizables)
+@import "./mixins/mixin";
+
+//partials
+//generales de todo el proyecto
+@import "./partials/general";
+//headder
+@import "./partials/headder";
