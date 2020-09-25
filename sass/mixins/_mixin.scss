@@ -1,0 +1,11 @@
+@mixin h2{
+    font-size: 18px;
+    padding-left: 30px;
+    background-position: 0 7px; 
+}
+@mixin h3{
+    font-size: 12px;
+    padding-left: 23px;
+    background-size: 8px;
+    background-position: 0 5px;
+}

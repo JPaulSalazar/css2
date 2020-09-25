@@ -1,0 +1,20 @@
+body {
+    border-top: 17px solid #090909;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0; 
+}
+
+  li {
+    list-style: none; 
+}
+
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table; 
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto; 
+}
