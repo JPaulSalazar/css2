@@ -1,0 +1,32 @@
+#footer {
+    background-color: $footerGray;
+    padding: 30px 0; 
+    .wrapper {
+        position: relative; }
+    p {
+        margin-bottom: 0; }
+}
+
+#footerList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li {
+        float: left; }
+    p {
+        margin-bottom: 0; }
+    li + li::before {
+        content: "|";
+        color: $darkGray; }
+    li + li {
+        margin-left: 6px; }
+    a {
+        color: $darkGray;
+        font-size: $little;
+        text-decoration: none; }
+}
+#footerLogo {
+    height: 64px;
+    position: absolute;
+    right: 0;
+    top: -8px; }
