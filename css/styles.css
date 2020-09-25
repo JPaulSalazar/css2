@@ -48,6 +48,10 @@ li {
   text-decoration: none;
   text-transform: uppercase; }
 
+#logotype {
+  float: left;
+  width: 183px; }
+
 h2, h3 {
   text-transform: uppercase;
   color: #090909;
@@ -132,3 +136,35 @@ h2 {
 #conect {
   width: 220px;
   float: right; }
+
+#footer {
+  background-color: #e2e2e2;
+  padding: 30px 0; }
+  #footer .wrapper {
+    position: relative; }
+  #footer p {
+    margin-bottom: 0; }
+
+#footerList {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+  #footerList li {
+    float: left; }
+  #footerList p {
+    margin-bottom: 0; }
+  #footerList li + li::before {
+    content: "|";
+    color: #5d5d5d; }
+  #footerList li + li {
+    margin-left: 6px; }
+  #footerList a {
+    color: #5d5d5d;
+    font-size: 12 px;
+    text-decoration: none; }
+
+#footerLogo {
+  height: 64px;
+  position: absolute;
+  right: 0;
+  top: -8px; }
