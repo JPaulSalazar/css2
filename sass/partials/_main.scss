@@ -1,0 +1,72 @@
+h2, h3 {
+    text-transform: uppercase;
+    color: $black;
+    background-image: $arrow;
+    background-repeat: no-repeat;
+    background-position: 0 7px; 
+}
+
+.mainTitles {
+    width: 280px;
+    float: left;
+    h2 {
+        font-size: $big;
+        border-bottom: 6px solid $black;
+        padding-bottom: 12px; 
+    }
+}
+
+.mainTitles + .mainTitles {
+    margin-left: 60px; 
+}
+
+p {
+    color:$darkGray;
+    font-size: $little;
+    line-height: 15px; 
+}
+
+#benefitsList {
+    margin: 0;
+    padding: 0; 
+}
+
+h3{
+    @include littleTitle;
+}
+
+h2{
+     @include bigTitle;
+}
+
+#read {
+    color: $orange;
+    font-size: $little;
+    font-weight: bold;
+    padding-left: 23px;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    background-image: $arrow;
+    background-repeat: no-repeat;
+    background-position: 0 2px; }
+
+#read:hover {
+    text-decoration: underline; }
+
+#benefitsList {
+    margin: 0;
+    padding: 0;
+    li {
+        padding-left: 30px;
+        background-image: $check;
+        background-repeat: no-repeat;
+        background-position: top left; }
+}
+
+.maninLink {
+    color: $black;
+    font-style: italic;
+    font-size: $little;
+    text-decoration: none; }
+
