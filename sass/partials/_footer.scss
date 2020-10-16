@@ -1,8 +1,8 @@
 #footer {
+    position: relative;
     background-color: $footerGray;
     padding: 30px 0; 
-    .wrapper {
-        position: relative; }
+    position: relative;
     p {
         margin-bottom: 0; }
 }
@@ -19,14 +19,19 @@
         content: "|";
         color: $darkGray; }
     li + li {
-        margin-left: 6px; }
+        margin-left: 0.65%; }
     a {
         color: $darkGray;
         font-size: $little;
         text-decoration: none; }
 }
 #footerLogo {
-    height: 64px;
     position: absolute;
     right: 0;
-    top: -8px; }
+    bottom: -4px; 
+    width: 19.37%;}
+
+#footerLogo img{
+    max-width: 100%;
+
+}

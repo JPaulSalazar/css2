@@ -1,0 +1,21 @@
+@media(max-width:767px){
+    body{
+        background-color: orange;
+    }
+    #img{
+        width: 100%;
+        float: none;
+    }
+    #img + #img {
+        margin-top: 15px;
+        padding: 0;
+    }
+    #subBlog{
+        width: 100%;
+        float: none;
+    }
+    #conect{
+        width: 100%;
+        float: none;
+    }
+}

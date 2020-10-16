@@ -6,8 +6,13 @@ h2, h3 {
     background-position: 0 7px; 
 }
 
+#slider img{
+    max-width: 100%;
+    width: 100%;
+}
+
 .mainTitles {
-    width: 280px;
+    width: 29%;
     float: left;
     h2 {
         font-size: $big;
@@ -17,7 +22,7 @@ h2, h3 {
 }
 
 .mainTitles + .mainTitles {
-    margin-left: 60px; 
+    margin-left: 6.25%; 
 }
 
 p {

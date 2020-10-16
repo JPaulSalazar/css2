@@ -1,7 +1,11 @@
 #subhead2 {
     float: right;
-    width: 655px;
+    width: 68,22%;
     position: relative; 
+}
+
+#subhead2-responsive{
+    display: none;
 }
 
 #email {
@@ -33,4 +37,9 @@
 
 #logotype {
     float: left;
-    width: 183px; }
+    width: 19.06%; }
+
+#logotype img{
+    width: 100%;
+    max-width: 100%;
+} 

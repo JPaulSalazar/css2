@@ -15,9 +15,11 @@ body {
 }
 
 .wrapper {
-    width: 960px;
+    width:960px;
+    max-width: 100%;
     margin: 0 auto; 
 }
 .block-border {
     padding: 20px 0 15px;
     border-bottom: 1px solid $lightgGray }
+

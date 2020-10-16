@@ -13,6 +13,7 @@ li {
 
 .wrapper {
   width: 960px;
+  max-width: 100%;
   margin: 0 auto; }
 
 .block-border {
@@ -21,8 +22,11 @@ li {
 
 #subhead2 {
   float: right;
-  width: 655px;
+  width: 68,22%;
   position: relative; }
+
+#subhead2-responsive {
+  display: none; }
 
 #email {
   font-size: 13px;
@@ -50,17 +54,25 @@ li {
 
 #logotype {
   float: left;
-  width: 183px; }
+  width: 19.06%; }
+
+#logotype img {
+  width: 100%;
+  max-width: 100%; }
 
 h2, h3 {
   text-transform: uppercase;
   color: #090909;
-  background-image: url("img/arrow.png");
+  background-image: url("../img/arrow.png");
   background-repeat: no-repeat;
   background-position: 0 7px; }
 
+#slider img {
+  max-width: 100%;
+  width: 100%; }
+
 .mainTitles {
-  width: 280px;
+  width: 29%;
   float: left; }
   .mainTitles h2 {
     font-size: 18 px;
@@ -68,7 +80,7 @@ h2, h3 {
     padding-bottom: 12px; }
 
 .mainTitles + .mainTitles {
-  margin-left: 60px; }
+  margin-left: 6.25%; }
 
 p {
   color: #5d5d5d;
@@ -98,7 +110,7 @@ h2 {
   text-decoration: none;
   text-transform: uppercase;
   position: relative;
-  background-image: url("img/arrow.png");
+  background-image: url("../img/arrow.png");
   background-repeat: no-repeat;
   background-position: 0 2px; }
 
@@ -110,7 +122,7 @@ h2 {
   padding: 0; }
   #benefitsList li {
     padding-left: 30px;
-    background-image: url("img/check.png");
+    background-image: url("../img/check.png");
     background-repeat: no-repeat;
     background-position: top left; }
 
@@ -121,27 +133,34 @@ h2 {
   text-decoration: none; }
 
 #img {
-  width: 214.5px;
+  width: 22.34%;
   float: left;
   display: block; }
 
+#img img {
+  max-width: 100%;
+  width: 100%; }
+
 #img + #img {
-  margin-left: 34px; }
+  margin-left: 3.54%; }
 
 #subBlog {
-  width: 660px;
+  width: 68.75%;
   float: left;
-  margin-right: 80px; }
+  margin-right: 8.33%; }
 
 #conect {
-  width: 220px;
+  width: 22.91%;
   float: right; }
 
+#conect img {
+  max-width: 100%; }
+
 #footer {
+  position: relative;
   background-color: #e2e2e2;
-  padding: 30px 0; }
-  #footer .wrapper {
-    position: relative; }
+  padding: 30px 0;
+  position: relative; }
   #footer p {
     margin-bottom: 0; }
 
@@ -157,14 +176,56 @@ h2 {
     content: "|";
     color: #5d5d5d; }
   #footerList li + li {
-    margin-left: 6px; }
+    margin-left: 0.65%; }
   #footerList a {
     color: #5d5d5d;
     font-size: 12 px;
     text-decoration: none; }
 
 #footerLogo {
-  height: 64px;
   position: absolute;
   right: 0;
-  top: -8px; }
+  bottom: -4px;
+  width: 19.37%; }
+
+#footerLogo img {
+  max-width: 100%; }
+
+@media (max-width: 1023px) {
+  body {
+    background-color: #ebb85a; }
+  #subhead2 ul {
+    display: none; }
+  #subhead2-responsive {
+    display: block;
+    margin-top: 47px;
+    text-align: right; }
+  .mainTitles {
+    width: 100%; }
+  .mainTitles + .mainTitles {
+    margin-left: 0;
+    margin-top: 15px; }
+  #img {
+    width: 48%;
+    padding: 1%; }
+  #img + #img {
+    margin-left: 0; }
+  #footerLogo {
+    position: static;
+    margin-top: 15px; } }
+
+@media (max-width: 767px) {
+  body {
+    background-color: orange; }
+  #img {
+    width: 100%;
+    float: none; }
+  #img + #img {
+    margin-top: 15px;
+    padding: 0; }
+  #subBlog {
+    width: 100%;
+    float: none; }
+  #conect {
+    width: 100%;
+    float: none; } }
