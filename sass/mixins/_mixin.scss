@@ -1,10 +1,10 @@
 @mixin bigTitle{
-    font-size: 18px;
+    font-size: 1.12rem;
     padding-left: 30px;
     background-position: 0 7px; 
 }
 @mixin littleTitle{
-    font-size: 12px;
+    font-size: 0.75rem;
     padding-left: 23px;
     background-size: 8px;
     background-position: 0 5px;
